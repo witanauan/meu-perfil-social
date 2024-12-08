@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: 'open sans' sans-serif;
+  color: hsl(0, 0%, 100%);
+  font-size: 14px;
+}
+h6 {
+  font-family: 'open sans' sans-serif;
+  font-size: 12px;
+}
+h5{
+  color: #ffffffbd;
+}
+
+a {
+  text-decoration: none;
+  color: unset;
+  border-radius: 3px;
+  color: hsl(0, 0%, 100%);
+  width: 100%;
+}
+body html{
+  
+}
+
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url(./img/DALL·E\ 2024-12-08\ 10.57.45\ -\ Um\ banner\ digital\ moderno\ para\ um\ desenvolvedor\ de\ software.\ O\ design\ apresenta\ um\ fundo\ escuro\ com\ padrões\ de\ código\ binário\ e\ linhas\ de\ conexão\ tecn.webp);
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: center center;
+}
+
+.perfil-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+}
+
+.perfil {
+  background-color:hsl(0, 0%, 8%);
+  padding: 50px;
+  border-radius: 10px;
+  text-align: center;
+  height: 550px;
+  width: 380px;
+  box-shadow: 0 4px 10px ;
+  margin: 0;
+}
+
+.foto-perfil {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  margin-bottom: 15px;
+}
+
+.nome-usuario {
+  font-size: 20px;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.bio {
+  font-size: 14px;
+  color: #555;
+  margin-top: 10px;
+}
+
+.perfil img {
+  border-radius: 360px;
+  height: auto;
+  width: 30%;
+  display: unset;
+  margin-top: -10px;
+  margin-bottom: 20px;
+
+
+}
+
+button {
+  width: 290px;
+  height: 40px;
+  border: 2px solid hsl(0, 0%, 12%);
+  background-color: hsl(0, 0%, 12%);
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 15px;
+
+}
+
+button:hover {
+  border-color: hsl(75, 94%, 57%);
+  background-color: hsl(75, 94%, 57%);
+  color: #141414cb;
+}
+button:hover a{
+  color: hsl(0, 0%, 8%)
+}
+
+
+
+.perfil-cidadania h6 {
+  margin: 10px;
+  color: hsl(75, 94%, 57%);
+}
+
+.perfil-info {
+  margin-top: 20px;
+}
+
+.button-github {
+  margin-top: 20px;
+
+}
