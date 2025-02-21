@@ -14,24 +14,27 @@ h5 {
   color: hsl(0, 0%, 100%);
   font-size: 14px;
 }
+
 h6 {
   font-family: 'open sans' sans-serif;
   font-size: 12px;
 }
-h5{
+
+h5 {
   color: #ffffffbd;
 }
 
 a {
+  display: block;
+  padding: 15px;
   text-decoration: none;
   color: unset;
   border-radius: 3px;
   color: hsl(0, 0%, 100%);
   width: 100%;
 }
-body html{
-  
-}
+
+body html {}
 
 body {
   font-family: Arial, sans-serif;
@@ -53,13 +56,13 @@ body {
 }
 
 .perfil {
-  background-color:hsl(0, 0%, 8%);
+  background-color: hsl(0, 0%, 8%);
   padding: 50px;
   border-radius: 10px;
   text-align: center;
   height: 550px;
   width: 380px;
-  box-shadow: 0 4px 10px ;
+  box-shadow: 0 4px 10px;
   margin: 0;
 }
 
@@ -103,7 +106,6 @@ button {
   justify-content: center;
   align-items: center;
   margin-bottom: 15px;
-
 }
 
 button:hover {
@@ -111,11 +113,10 @@ button:hover {
   background-color: hsl(75, 94%, 57%);
   color: #141414cb;
 }
-button:hover a{
+
+button:hover a {
   color: hsl(0, 0%, 8%)
 }
-
-
 
 .perfil-cidadania h6 {
   margin: 10px;
@@ -128,5 +129,40 @@ button:hover a{
 
 .button-github {
   margin-top: 20px;
+}
 
+.button-github img {
+  border-radius: 360px;
+  height: auto;
+  width: 10%;
+  right: auto;
+  display: flex;
+  margin-top: 20px;
+}
+
+.button-facebook img {
+  border-radius: 360px;
+  height: auto;
+  width: 10%;
+  right: auto;
+  display: flex;
+  margin-top: 20px;
+}
+
+.button-linkedin img {
+  border-radius: 360px;
+  height: auto;
+  width: 10%;
+  right: auto;
+  display: flex;
+  margin-top: 20px;
+}
+
+.button-instagram img {
+  border-radius: 360px;
+  height: auto;
+  width: 10%;
+  right: auto;
+  display: flex;
+  margin-top: 20px;
 }
