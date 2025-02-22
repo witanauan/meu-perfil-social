@@ -42,9 +42,9 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background-image: url(./img/DALL·E\ 2024-12-08\ 10.57.45\ -\ Um\ banner\ digital\ moderno\ para\ um\ desenvolvedor\ de\ software.\ O\ design\ apresenta\ um\ fundo\ escuro\ com\ padrões\ de\ código\ binário\ e\ linhas\ de\ conexão\ tecn.webp);
+  background-image: url(img/foto_de_fundo.webp);
   background-repeat: no-repeat;
-  background-size: auto;
+  background-size: 100%;
   background-position: center center;
 }
 
