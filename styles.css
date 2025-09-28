@@ -34,8 +34,6 @@ a {
   width: 100%;
 }
 
-body html {}
-
 body {
   font-family: Arial, sans-serif;
   display: flex;
@@ -201,8 +199,8 @@ button:hover a {
   transition: transform 0.3s ease;
 }
 
-.like-button.animate-like .heart {
-  animation: heartBeat 0.6s ease;
+.animate-like .heart {
+  animation: heartBeat 0.6s ease-out;
 }
 
 @keyframes heartBeat {
